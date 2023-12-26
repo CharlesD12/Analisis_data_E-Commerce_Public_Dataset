@@ -10,7 +10,7 @@ pip install pandas matplotlib seaborn streamlit babel
 ```
 
 ## Run steamlit app
+</div>
 ```
 streamlit run dashboard.py
 ```
-</div>
