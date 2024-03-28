@@ -14,4 +14,4 @@ Link streamlit : https://submissiondicoding1.streamlit.app/
 Jika requirement tidak bisa digunakan pada saat mengupload ke streamlit cloud, terdapat beberapa cara alternatif, diantaranya adalah :
 1. Merename requirement menjadi **requirements.txt**
 2. Pada requirement jangan menggunakan nama requirement namun menggunakan **pepreqs** supaya bisa requirement yang dibutuhkan terisi otomatis.
-3. Jika kedua cara tersebut juga tidak membuahhkan hasil gunakan perangkat device lain dan install versi python yang kompatibel dengan versi streamlit cloud (umumnya dari versi python 3.9 sampai python 3.11)
+3. Jika kedua cara tersebut juga tidak membuahhkan hasil, gunakan perangkat device lain atau install versi python yang kompatibel dengan versi streamlit cloud (umumnya dari versi python 3.9 sampai python 3.11)
