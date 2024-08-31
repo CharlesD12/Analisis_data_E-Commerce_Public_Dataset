@@ -1,4 +1,9 @@
 import pandas as pd
+import matplotlib.pyplot as plt
+import seaborn as sns
+import streamlit as st
+from babel.numbers import format_currency
+sns.set(style='dark')
 
 #create customers_demographics_df
 def create_customer_bycity_df(df):
