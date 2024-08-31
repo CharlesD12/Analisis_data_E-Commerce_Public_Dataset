@@ -90,7 +90,7 @@ colors = ["#FF0000"] + ["#FF7F7F"] * 19
 sns.barplot(
     x="customer_count",
     y="customer_city",
-    data=customer_bycity_df.sort_values(by="customer_count", ascending=False).head(20),
+    data=customer_bycity_df.sort_values(by="customer_count", ascending=False).head(5),
     palette=colors,
     ax=ax
 )
