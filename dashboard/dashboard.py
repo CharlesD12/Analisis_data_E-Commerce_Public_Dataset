@@ -1,3 +1,5 @@
+import pandas as pd
+
 #create customers_demographics_df
 def create_customer_bycity_df(df):
   bycity_df = df.groupby(by="customer_city").customer_id.nunique().reset_index()
