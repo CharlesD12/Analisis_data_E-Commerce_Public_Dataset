@@ -79,7 +79,7 @@ customer_bycity_df = create_customer_bycity_df(main_df)
 customer_bystate_df = create_customer_bystate_df(main_df)
 rfm_df = create_frm_df(main_df)
 
-st.header('Charles Dometian Dashboard 🛒')
+st.header('✨ Charles Dometian Dashboard 🛒')
 
 #Membuat grafik customers
 st.subheader("Customer Demographics")
