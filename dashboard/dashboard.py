@@ -107,7 +107,7 @@ colors = ["#0000FF"] + ["#ADD8E6"] * 26
 sns.barplot(
     x="customer_count",
     y="customer_state",
-    data=customer_bystate_df.sort_values(by="customer_count", ascending=False),
+    data=customer_bystate_df.sort_values(by="customer_count", ascending=False).head(5),
     palette=colors,
     ax=ax
 )
