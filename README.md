@@ -9,7 +9,7 @@ pip install pandas matplotlib numpy seaborn streamlit babel
 ```
 streamlit run dashboard.py
 ```
-Link streamlit : https://submissiondicoding1.streamlit.app/
+Link streamlit : analyticsecommerce.streamlit.app
 
 Jika requirement tidak bisa digunakan pada saat mengupload ke streamlit cloud, terdapat beberapa cara alternatif, diantaranya adalah :
 1. Merename requirement menjadi **requirements.txt**
